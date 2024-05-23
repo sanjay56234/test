@@ -1,0 +1,4 @@
+let suppose, we have a class which is extends to a abstract base class, and it have some methods.
+
+Let suppose the object of class will call the function. in csse if the object is null, then code will brake,
+we can handle this using null object pattern + factory pattern

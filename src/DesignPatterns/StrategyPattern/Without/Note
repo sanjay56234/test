@@ -1,0 +1,1 @@
+Issue with this approach is that, at same level, sports vehicle and off roadvehicle has to implement same thing and doing re duplication of code.

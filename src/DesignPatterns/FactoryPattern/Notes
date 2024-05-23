@@ -1,0 +1,18 @@
+Factory Pattern :
+
+Factor pattern is used when we have create different objects, based on some condition.
+we wrote a factory class, where we define our condition, and based on that, we call the corresnponding constructor
+
+
+ABSTRACT factory pattern :
+
+it is also same, we add another layer of factory :
+let support we have vehicle class, it has four child :
+
+2 are ordinary vechile chaild : hyundai, and swift
+2 are luxury : bmw , audi
+
+
+now create two factory : one for luxury and one for ordinary :
+
+and create parent factory for these two factory :

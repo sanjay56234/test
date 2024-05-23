@@ -1,0 +1,4 @@
+Builder Pattern
+
+Builder pattern is used, when we have a class, and it has a lot of memebers, but all are not optional.
+Then we use builder to create those objects .

@@ -1,0 +1,37 @@
+SOLID
+S - Single responsibiliy principle
+O - open / closed principle
+L - liskov subsitution priciple
+I - interface segmentated principle
+D - dependency injection principle
+
+
+Single Responsibility :
+A class should have only 1 reason to change, if there are multiple functions, that could change, then create different class.
+
+Open / Closed Principle :
+open for extension but closed for modification ( save to file, save to db )
+
+Liskov Subsitution :
+If class B is substype of class A, and if we pass the object of B instead of Object A, then it should not break the program
+
+Interface segmentated :
+Interface should be created such that, client should not implement unnecessary functions
+
+Dependency Injection :
+Class should depend upon interface rather than concrete class
+
+
+Liskov subsitition --------------
+
+We have Vehicle class, which has 2 methods, get number of wheels, is engine turn on
+
+Now three subclass, car, bike, and bicycle.
+Bicylce override method is engine turn on and return null, bcz it doesn't contain engine.
+
+This is wrong.
+
+Ideally Vehicle class should have only get number of wheels.
+Bicycle should extends that class.
+Then a vechile engile class, that extends vehicle class and add extra function, is engine turn on.
+now car and bike should extends vehicle engine class.
