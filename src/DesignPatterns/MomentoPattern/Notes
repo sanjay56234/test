@@ -1,0 +1,14 @@
+It provide the ability to the undo the object in its previos state
+
+
+origniator
+1. it represent the object for which state need to stored and restored
+exponse method to save and restore its states using mometo object
+
+memento
+it respresnt and object which hold the state of the originator
+
+caretakour
+manages the list of states
+
+
